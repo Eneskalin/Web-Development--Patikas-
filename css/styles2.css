@@ -1,0 +1,54 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+/* Konteyner */
+.container {
+    text-align: center;
+}
+
+/* Logo */
+.logo img {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+/* Arama Çubuğu */
+.search-bar input {
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Butonlar */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-color: #c6c6c6;
+}

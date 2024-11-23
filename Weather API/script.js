@@ -1,5 +1,5 @@
 const url='https://api.openweathermap.org/data/2.5';
-const key='44a191d07fd568f79f910700d24ff1cc';
+const key='************************************';
 const locateurl='https://api.openweathermap.org/geo/1.0/direct';
 let longitute;
 let latitude;
